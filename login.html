@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE edge">
+    <title>Factunet | Login</title>
+    <!-- Definición de metadatos de la página -->
+    <!-- Indica al navegador que se ajuste al ancho de la pantalla -->
+
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Enlace a la hoja de estilos de Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <!-- Enlace a la hoja de estilos de Font Awesome -->
+    <link rel="stylesheet" href="../public/css/font-awesome.min.css">
+    <!-- Enlace a la hoja de estilos de AdminLTE -->
+    <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
+    <!-- Enlace a la hoja de estilos para diferentes pieles (skins) -->
+    <link rel="stylesheet" href="../public/css/_all-skins.min.css">
+</head>
+
+<body class="hold-transition login-page">
+    <!-- Define una clase CSS para el cuerpo de la página -->
+    <div class="login-box">
+        <div class="login-logo">
+            <a href="../../index2.html"><b>Factunet</b>Ventas</a>
+        </div>
+        <!-- Encabezado de la página de inicio de sesión -->
+        <!-- /.login-logo -->
+        <div class="login-box-body">
+            <p class="login-box-msg">Ingresa tus datos de Acceso</p>
+            <!-- Formulario de inicio de sesión -->
+            <form method="post" id="frmAcceso">
+                <div class="form-group has-feedback">
+                    <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario">
+                    <!-- Campo de entrada de nombre de usuario -->
+                    <span class="fa fa-user form-control-feedback"></span>
+                    <!-- Icono de usuario -->
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" id="clavea" name="clavea" class="form-control" placeholder="Password">
+                    <!-- Campo de entrada de contraseña -->
+                    <span class="fa fa-key form-control-feedback"></span>
+                    <!-- Icono de llave (clave) -->
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        <!-- Columna vacía en la parte izquierda -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-xs-4">
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
+                        <!-- Botón para enviar el formulario -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+        </div>
+        <!-- Contenido del cuerpo de la página de inicio de sesión -->
+        <!-- /.login-box-body -->
+    </div>
+    <!-- Contenedor principal de la página de inicio de sesión -->
+    <!-- /.login-box -->
+
+    <!-- Inclusión de scripts JavaScript -->
+    <!-- jQuery 3 -->
+    <script src="../public/js/jquery.min.js"></script>
+    <!-- Inclusión de Bootstrap 3.3.7 y otros scripts -->
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script src="../public/js/bootbox.min.js"></script>
+    <script src="scripts/login.js"></script>
+    <!-- Inclusión de una imagen de logo -->
+    <img src="img/logo.jpg">
+</body>
+
+</html>
